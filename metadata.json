@@ -1,0 +1,6 @@
+{
+  "name": "Batch PDF Printer",
+  "description": "Một ứng dụng tự động hóa in hàng loạt tệp tin PDF với bộ kiểm soát hàng đợi, mô phỏng Spooler máy in và quản lý sự cố.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

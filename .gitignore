@@ -1,0 +1,14 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# Electron build output (file .exe/.7z lớn, vượt giới hạn 100MB của GitHub)
+release/
+*.exe
+*.7z
+*.blockmap
