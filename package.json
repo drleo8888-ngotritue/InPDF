@@ -12,7 +12,9 @@
     "lint": "tsc --noEmit",
     "electron": "electron .",
     "electron:dev": "concurrently -k -n VITE,ELECTRON -c blue,green \"vite --port=3000\" \"wait-on tcp:3000 && cross-env NODE_ENV=development electron .\"",
-    "electron:build": "vite build && electron-builder"
+    "electron:build": "vite build && electron-builder",
+    "pack": "vite build && electron-builder",
+    "pack:dir": "vite build && electron-builder --dir"
   },
   "dependencies": {
     "@google/genai": "^2.4.0",
