@@ -55,10 +55,7 @@
       "node_modules/pdf-to-printer/**/*"
     ],
     "win": {
-      "target": "portable"
-    },
-    "portable": {
-      "artifactName": "BatchPDFPrinter-Portable-${version}.exe"
+      "target": "dir"
     },
     "directories": {
       "output": "release"
